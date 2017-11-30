@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <title>Sign In or Register to Get Started Using Walgreens.com|walgreens </title>
+
+    <script>
+        function login() {
+            //var username= document.getElementByName("username").value;
+            //var password= document.getElementByName("password").value;
+            alert("hello");
+
+        }
+    </script>
+</head>
+<body>
+<div id="logo">
+    <a href="homepage.html"><img src="WalgreensLogo.JPG" alt="Walgreens"/></a>
+</div>
+<form id="form" method="post" name="login">
+    <h2><b>Sign In</b></h2>
+    <section>
+        Username:
+        <input id="username" type="text" name="username">
+    </section>
+    <section>
+        Password:
+        <input id="password" type="password" name="password">
+    </section>
+    <br>
+    <input id="signin" type="button" onclick="login()" name="submit" value="Sign In"/>
+    <input id="create" type="button" name="create" onclick="login()" value="Create a new account"/>
+    <h5 class="center"><a href="#"> <b>Forgot username</b></a> | <a href="#"><b> Forgot password</b> </a></h5>
+    <h5 class="center"><a href="#"> Sign in help center </a></h5>
+    <div id="help">
+        <input id="needhelp" type="button" name="help" value="Need help?Live chat"/>
+    </div>
+</form>
+<footer>
+    <h5 class="center"><a href="#"> <b>Notice of Privacy Practices</b></a> | <a href="#"><b>Terms of Use</b> </a> | <a
+            href="#"> <b>Online Privacy & Security</b></a></h5>
+
+    <p id="last"> © Copyright 2014 Walgreen Co. 200 Wilmot Rd. Deerfield IL All rights reserved.</p>
+</footer>
+</body>
+</html>
